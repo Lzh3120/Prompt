@@ -9,6 +9,9 @@ const sidebar = generateSiderbar(process.cwd())
 export default defineConfig({
   title: "LzhPro私人笔记",
   description: "私人笔记，谨慎查阅",
+  head: [
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4125583638082058', crossorigin: 'anonymous' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
